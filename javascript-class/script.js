@@ -38,3 +38,59 @@ const student = [
 ];
 console.log(student[3]);
 console.log(student[1].gender);
+
+
+function showMessage() {
+  alert("Good morning sir")
+}
+showMessage()
+
+function add(a, b) {
+  return a + b
+}
+
+console.log(add(3,6));
+
+const votersEligibility = function () {
+  let age = 12;
+  if(age >= 18) {
+    console.log('You are eligible to vote');
+  }
+
+  else{
+    console.log('you are not eligible to vote');
+  }
+
+}
+votersEligibility()
+
+const calulateAge = function (birthyear) {
+  return 2024 - birthyear 
+}
+console.log(calculateAge(2000))
+
+
+const calAges =birthyear => 2024 - birthyear
+console.log(calAgesn(2007));
+
+const times = (d, c) => d * c 
+console.log(times(7,9));
+
+
+const checkGrade = function() {
+  if{grade.value}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
